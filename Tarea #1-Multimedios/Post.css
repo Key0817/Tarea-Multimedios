@@ -1,0 +1,106 @@
+.header {
+    text-align: left 10px;
+    padding: 10px;
+    color: black; 
+}
+
+
+.mapa {
+    max-width: 500px;
+    height: auto;  
+    border: 1px solid black;
+}
+
+.Superior {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.Iquierda {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 8PX ;
+}
+
+#LogoM{
+    font-size: 28px;
+    cursor: pointer;
+
+}
+#LogoM{
+    margin-top: 3px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+
+.TextU {
+    line-height: 15px;
+}
+
+
+#Men{
+    margin-top: 10px;
+    font-size: 36px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+
+.TXT {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.Mid {
+    margin-bottom: 5px;
+}
+
+.Mid img {  
+    width: 492px;
+    height: 380px;
+}
+
+.interacciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.commenu input{
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 4px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 7px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+#Reset{
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: darkturquoise;
+    font-size: 18px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}

@@ -1,0 +1,115 @@
+header {    
+    border: 1px solid gray ;
+}
+
+#Navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+.Boton {
+
+    padding: 10px 20px;
+    background-color: rgb(50, 200, 63);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: flex-end;
+    margin-right: 12px;
+    margin-top: 6px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+#Menu {
+    border-radius: 4px;
+    width: 40px;
+    height: 33px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+#Descripcion{
+    width: 300px;
+    height: 33px;
+    font-style: italic;
+    
+}
+
+.medio {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    display: flex;
+
+}
+
+
+#Ubi, #Camara{
+    width: 35px;
+    height: 33px;
+    background-color: gray;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.derecha {
+    margin-right: 38px;
+    display: flex;
+}
+
+.Cancelar{
+    margin-left: 135px;
+    background-color: gray;
+    border-radius: 5px;
+    width: 79px;
+    cursor: pointer;
+}
+
+.Publicar{
+    background-color: green;
+    border-radius: 5px;
+    width: 79px;
+    cursor: pointer;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    gap: 33px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    
+}
+
+#galeria, #posts {
+    width: 40px;
+    height: 35px;
+    background-color: rgb(229, 221, 221);
+    cursor: pointer;
+}
+
+#Contenido {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: auto;
+    max-width: auto;
+}
+
+#Imagen1, #Imagen2, #Imagen3, #Imagen4, #Imagen5, #Imagen6, #Imagen7, #Imagen8, #Imagen9{
+    margin: 8px;
+    justify-content: center;
+    align-items: center;  
+}
+
+
